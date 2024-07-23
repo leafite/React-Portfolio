@@ -7,7 +7,7 @@ const AboutMe = () => {
         <h2 className="title is-3">About Me</h2>
         <div className="content has-text-centered">
           <figure className="image is-128x128 is-inline-block">
-            <img className="is-rounded" src="/assets/images/photo.jpg" alt="Developer" />
+            <img className="is-rounded" src="/assets/Person.PNG" alt="Developer" />
           </figure>
           <p>
             Hello, I am Chris and have gone through a fast-paced class to become a Full-Stack Developer. This 
