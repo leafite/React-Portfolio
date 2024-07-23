@@ -1,12 +1,12 @@
-import 'bulma/css/bulma.min.css';
-import './App.css';
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
+import 'bulma/css/bulma.min.css';
+import './App.css';
 
 const container = document.getElementById('root');
-const root = createRoot(container);
+const root = ReactDOM.createRoot(container);
 
 root.render(
   <React.StrictMode>
